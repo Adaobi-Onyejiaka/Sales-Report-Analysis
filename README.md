@@ -3,20 +3,25 @@
 ## Table of Content
 
 - [Project Overview](#project-overview)
-- [Data source](#data-source)
+- [Data Source](#data-source)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Tools](#tools)
-- [Data cleaning](#data-cleaning)
+- [Data Cleaning](#data-cleaning)
 - [PowerBI DAX](#powerbi-dax)
-- [Key findings](#key-findings)
-- [Recommendation](#recommendation)
+- [Key Findings](#key-findings)
+- [Recommendations](#recommendations)
 - [Conclusion](#conclusion)
 
-### Project overview
+### Project Overview
 
 This sales data analysis project explores analyzing a company's sales data and indicating profit by product, sales, and other significant factors that might influence the company's performance.
 
-### Data source
+![Dashboard preview]
+
+![Screenshot 2025-05-07 014755](https://github.com/user-attachments/assets/2bf2a900-ee7e-4260-a429-41ccbaa8665f)
+
+
+### Data Source
 
 - Source: [Microsoft sample data](https://docs.microsoft.com/en-us/power-bi/create-reports/sample-financial-download)
 - Fields: Country, Products, Sales, Profit, Date, Month etc. containing detailed information about each sales made by the company.
@@ -34,7 +39,7 @@ EDA involved exploring the sales report to answer key questions, such as:
 - Excel – Data cleaning and Analysis
 - Power BI – Creating reports
 
-### Data cleaning
+### Data Cleaning
 
 In the initial data preparation phase, we performed the following tasks:
 - Data loading and inspection
@@ -55,7 +60,7 @@ Segmented the product column into category using DAX, so as to visualize sales p
   seasonal demand in October and December, and the exceptional contribution of the Wine category. These factors collectively indicate that both geographic focus and 
   product mix significantly influence profitability.
 
-### Recommendation
+### Recommendations
 
 To maximize profitability, we recommend focusing on high-performing products such as Paseo, VTT, and Amarilla, while strengthening market presence in North America. Additionally, increasing marketing and inventory readiness ahead of peak sales months, particularly October and December can further boost returns. Expanding the Wine category, which demonstrates strong overall performance, should also be prioritized to sustain and grow profitability.
 
